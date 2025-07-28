@@ -56,13 +56,6 @@ def is_not_heading(text):
     if len(text) < 3:
         return True
     
-    # Single words that are likely not headings
-    # if len(text.split()) == 1 and not re.match(r'^(Introduction|Overview|Conclusion|References|Acknowledgements)', text, re.IGNORECASE):
-    #     return True
-    
-    # # List items starting with numbers but not proper headings
-    # if re.match(r'^\d+\.\s+[a-z]', text):  # "1. something" (lowercase)
-    #     return True
     
     return False
 
@@ -75,31 +68,20 @@ def is_proper_heading(text, font_size, avg_font_size, is_bold,prev_text,next_tex
     
     # Numbered headings pattern (1., 2.1, etc.)
     numbered_heading = bool(re.match(r'^\d+\.(\d+\.)*\s+[A-Z]', text))
-    
-    # Common heading patterns
-    common_heading = bool(re.match(r'^(Introduction|Overview|Conclusion|References|Acknowledgements|Table of Contents|Revision History)', text, re.IGNORECASE))
-    
-    # Section/Chapter patterns
-    section_heading = bool(re.match(r'^(Chapter|Section|Part)\s+\d+', text, re.IGNORECASE))
 
-    # Whitespace padding: if the text has a blank line above and below, it's likely a heading
-    # This requires context, so you may need to pass previous/next line info to this function.
-    # For now, let's assume you pass two extra arguments: prev_text, next_text
-    # Example usage: is_proper_heading(text, font_size, avg_font_size, is_bold, prev_text, next_text)
-    # Uncomment and use if you adapt the function signature:
-    whitespace_padding = prev_text.strip() == "" and next_text.strip() == ""
+  
+    whitespace_padding = prev_text.strip() == "" or next_text.strip() == ""
     
     # Font-based criteria
     large_font = font_size > avg_font_size * 1.2
-    bold_and_reasonable_size = is_bold and font_size > avg_font_size * 1.05
-
+    bold_and_reasonable_size = is_bold
     # Additional criterion: font size greater than p50 percentile
     font_size_greater_than_p50 = font_size > p50
 
     
         
     
-    return (numbered_heading or common_heading or section_heading or 
+    return (numbered_heading or 
             large_font or bold_and_reasonable_size or whitespace_padding or font_size_greater_than_p50) and len(text) > 3
 
 
@@ -142,15 +124,10 @@ def classify_heading_level(text, font_size, font_hierarchy):
     elif re.match(r'^\d+\.\d+\.\d+\s+', text):  # "2.1.1 Something"
         return "H3"
     
-    # Secondary: Font size hierarchy
     # Secondary: Font size hierarchy classification
     for i, (lower, upper) in enumerate(font_hierarchy):
         if lower <= font_size <= upper:
             return f"H{i+1}"
-    
-    # Default for common headings
-    # if re.match(r'^(Introduction|Overview|Conclusion|References|Acknowledgements|Table of Contents|Revision History|Summary)', text, re.IGNORECASE):
-    #     return "H1"
     
     return "H2"  # Default level
 
@@ -176,7 +153,7 @@ def extract_headings(doc):
         return []
     
     # Calculate document-wide font statistics
-    # Document-wide font statistics using median instead of mean
+   
     sorted_sizes = sorted((font_sizes))
 
     # Helper to compute a percentile value (0-100)
@@ -196,17 +173,12 @@ def extract_headings(doc):
     p75  = get_percentile(sorted_sizes, 75)    # 25%–50%
     p50  = get_percentile(sorted_sizes, 50)    # below 50%
 
-    # font_hierarchy now holds ranges for H1, H2, H3
-    # H1: sizes between p90 and p100
-    # H2: sizes between p75 and p90
-    # H3: sizes between p50 and p75
+
     font_hierarchy = [
         (p90, p98),
         (p75, p90),
         (p50, p75)
     ]
-
-    # font_hierarchy = [p90, p75, p50]
     
     # Filter and classify headings
     headings = []

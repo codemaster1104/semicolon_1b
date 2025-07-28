@@ -1,9 +1,14 @@
 {
-  "title": "Adobe LiveCycle Rights Management",
+  "title": "Adobe LiveCycle Rights Management (ALCRM) servers",
   "outline": [
     {
       "level": "H2",
       "text": "Adobe LiveCycle Rights Management (ALCRM) servers",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Adobe LiveCycleRights Management (ALCRM) servers let you define centralized policies to control access to documents. The policies are stored on the ALCRM server. You require server access to use them.",
       "page": 0
     },
     {
@@ -42,6 +47,21 @@
       "page": 2
     },
     {
+      "level": "H2",
+      "text": "• Check the revocation status of certificates : With the Require certificate revocation checking to succeed... checkbox selected, Acrobat checks certificates against a list of excluded certificates during validation. If you deselect the check box, the revocation status for Acrobat Approval",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "• Set automatic validation of signatures : With the Verify signatures when the document is opened check box selected, Acrobat automatically validates all signatures in a PDF when you open the document.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "• Set verification behavior: The options specify methods that determine which plug-in to choose when verifying a signature. The appropriate plug-in is often selected automatically. Contact your system administrator about specific plug-in requirements for validating signatures.",
+      "page": 2
+    },
+    {
       "level": "H1",
       "text": "1. Navigate to the hamburger menu (Windows) or the Acrobat menu (macOS)",
       "page": 3
@@ -57,8 +77,48 @@
       "page": 3
     },
     {
+      "level": "H2",
+      "text": "> Preferences > Signatures .",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Note: Selecting these options can compromise security.",
+      "page": 3
+    },
+    {
       "level": "H1",
       "text": "Set the trust level of a certificate",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Add verification information : Select appropriate options under 'Verification information' to add verification information to the signed PDF or to alert the user when the verification information is too large.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Configure to trust the root certificates in the Windows® certificate store : You can specify whether to trust all root certificates in the Windows® Certificates store for:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Set verification for time : You can select the appropriate options under 'Verification time' to check the time at which the signature was created, to check the timestamp embedded in the signature, or to check the current time.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Use expired timestamps : The option is selected by default. It u ses the time mentioned in the timestamp or embedded in the signature, even if the signature’s certificate has expired. If you deselect the check box, Acrobat discards expired timestamps.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Validating certified documents : Certificates are trusted for certification signature validation.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• Validating signatures : Certificates are trusted for Acrobat Approval signature validation.",
       "page": 3
     },
     {
@@ -69,6 +129,41 @@
     {
       "level": "H1",
       "text": "5. In the Edit Certificate Trust dialog that opens, select any of the following items to",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Note: Allow Embedded high privilege JavaScript™ and Privileged system operations only for sources that you trust and work closely with. For example, use these options for your employer or service provider. 6. Select OK .",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Certified documents : It t rusts documents in which the author has certified the document with a signature. You trust the signer for certifying documents, and you accept actions that the certified document takes. When the 'Certified documents' option is selected, the following options are available:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Dynamic content : It a llows movies, sound, and other dynamic elements to play in a certified document.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Embedded high privilege JavaScript™ : It a llows privileged JavaScript™ embedded in PDF files to run. JavaScript™ files can be used in malicious ways. It’s prudent to select this option only when necessary on certificates you trust.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Privileged system operations : It a llows Internet connections, cross- domain scripting, silent printing, external-object references, and import/export methodology operations on certified documents.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Signed documents or data : It a cknowledges the identity of the signer.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• Use this certificate as a trusted root : A root certificate is an originating authority in a chain of certificate authorities that issued the certificate. By trusting the root certificate, you trust all certificates issued by that certificate authority.",
       "page": 4
     },
     {
@@ -117,6 +212,16 @@
       "page": 7
     },
     {
+      "level": "H2",
+      "text": "Then, select Options > Compare Signed Version To Current Version .",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "To view previous versions, open the Signature panel and then select Options > View Signed Version .",
+      "page": 7
+    },
+    {
       "level": "H1",
       "text": "Trust a signer’s certificate",
       "page": 7
@@ -162,8 +267,18 @@
       "page": 8
     },
     {
+      "level": "H2",
+      "text": "Acrobat and Acrobat Reader can embed the necessary elements if available, and the PDF creator must enable usage rights for Acrobat Reader users by going to the hamburger menu (Windows) or the Acrobat menu (macOS) > Save as other > Acrobat Reader extended PDF .",
+      "page": 9
+    },
+    {
       "level": "H1",
       "text": "Establish long-term signature validation",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Note: Embedding timestamp information requires an appropriately configured timestamp server. In addition, the signature validation time must be set to Secure Time by navigating to Preferences > Security > Advanced Preferences > Verification tab.",
       "page": 9
     },
     {
@@ -204,6 +319,16 @@
     {
       "level": "H1",
       "text": "Add verification information at signing",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "The command is unavailable if the signature is invalid, or is signed with a self-signed certificate. The command is also unavailable in case the verification time equals the current time.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "the Include signature’s revocation status option is selected.",
       "page": 10
     }
   ]

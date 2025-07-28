@@ -1,9 +1,24 @@
 {
-  "title": "Add comments while viewing a PDF",
+  "title": "Add comments while viewing a PDF document",
   "outline": [
     {
       "level": "H1",
       "text": "Add comments while viewing a PDF document",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "• Actions on highlighted selection: When you select an existing highlighted comment in a PDF you see quick actions to Add Note, Change Color, or Delete the comment.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "• Actions on image selection: When you select an image you can perform actions like Add sticky note, Highlight image, Redact image, Copy Image, and Edit a PDF.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "• Actions on text selection : When you select text, you can perform actions like Highlight text, Underline text, Strikethrough text, Redact text, Copy text, and Edit a PDF.",
       "page": 0
     },
     {
@@ -14,6 +29,11 @@
     {
       "level": "H1",
       "text": "Annotations and drawing markup tools overview",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Note:",
       "page": 1
     },
     {
@@ -47,6 +67,11 @@
       "page": 3
     },
     {
+      "level": "H2",
+      "text": "Note: After you make an initial comment, the tool changes back to the Select tool so that you can move, resize, or edit your comment. (The Pencil and Highlight Text tools stay selected.)",
+      "page": 3
+    },
+    {
       "level": "H1",
       "text": "1. Select or double-click the note icon.",
       "page": 4
@@ -72,8 +97,18 @@
       "page": 4
     },
     {
+      "level": "H2",
+      "text": "Note: In Acrobat Reader , complete commenting tools are available only in PDFs that have commenting enabled. PDFs in a review workflow typically include commenting rights.",
+      "page": 4
+    },
+    {
       "level": "H1",
       "text": "Use the Add a comment tool to add a text message in a pop-up note. Steps to add a comment",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "the options menu of the comment, select Properties. Modify the Sticky Note Properties as desired and select OK .",
       "page": 4
     },
     {
@@ -127,6 +162,11 @@
       "page": 5
     },
     {
+      "level": "H2",
+      "text": "K (macOS).",
+      "page": 5
+    },
+    {
       "level": "H1",
       "text": "Note: Use the Commenting panel in the Preferences dialog box to change default pop-up behavior, and other settings for creating and viewing comments Copy partial text in a comment",
       "page": 5
@@ -144,6 +184,11 @@
     {
       "level": "H1",
       "text": "Add a text comment",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Use the Add text comment tool to type text anywhere on the PDF page.",
       "page": 6
     },
     {
@@ -182,6 +227,51 @@
       "page": 8
     },
     {
+      "level": "H2",
+      "text": "Note: In Acrobat Reader , drawing tools are available only in PDFs that have commenting enabled. PDFs in a review workflow typically include commenting rights.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Note: To specify the line width, color, and other properties before you draw, select the desired tool, and press Ctrl+E to open the properties toolbar. Set the desired options in the Properties toolbar.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "and the Circle tool lets you create simple shapes.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "drawing tool removes the drawing markups.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "segments. The Connected lines tool creates open shapes with multiple segments.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• The Cloud tool and Polygon tool create closed shapes with multiple",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• The Draw tool creates free-form drawings, and the Erase a",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• The Line tool ,  the Arrow tool , the Rectangle tool ,",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• To draw free-form lines using the Draw tool, drag where you want to begin drawing. You can release the mouse button, move the pointer to a new location, and continue drawing. To erase parts of the drawing, select the Erase",
+      "page": 8
+    },
+    {
       "level": "H1",
       "text": "1. From the Quick action toolbar, select the Draw freehand tool.",
       "page": 9
@@ -209,6 +299,16 @@
     {
       "level": "H1",
       "text": "Add a line",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Note: To delete a drawing markup, select it and press Delete.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "a drawing tool and drag across the areas of the drawing that you want to remove.",
       "page": 9
     },
     {
@@ -242,6 +342,11 @@
       "page": 10
     },
     {
+      "level": "H2",
+      "text": "Note: You cannot group text edit markups.",
+      "page": 10
+    },
+    {
       "level": "H1",
       "text": "Ungroup markups",
       "page": 10
@@ -267,8 +372,28 @@
       "page": 11
     },
     {
+      "level": "H2",
+      "text": "Select the Set or change properties for the selected text icon in the quick tools menu to change the text color, alignment, and font attributes for the text.",
+      "page": 11
+    },
+    {
       "level": "H1",
       "text": "Set or change properties for the text box",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "You can add comments to Japanese, Chinese, and Korean text with the Text Box tool, but you must have the Asian-language resource files installed. Text boxes allow for horizontal text only.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "You can use the Add text comment tool to create a box that contains text. You can position it anywhere on the page and adjust it to any size. A text box remains visible on the document page; it doesn’t close like a pop-up note.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "You can use the Text callout tool to create a callout text box. Callout text boxes are handy when you want to single out—but not obscure—a particular area of a document. Callout text boxes have three parts: a text box, a knee line, and an end-point line. You can resize each part by dragging a handle. The knee line can be resized in one direction only; horizontal knee lines can be resized horizontally only; vertical knee lines can be resized vertically only. The text box expands vertically as you type so that all text remains visible.",
       "page": 11
     },
     {
@@ -283,12 +408,37 @@
     },
     {
       "level": "H1",
+      "text": "3. (Optional) Select Set or change properties for the selected text icon in the quick",
+      "page": 12
+    },
+    {
+      "level": "H1",
       "text": "4. Enter the text. Text wraps automatically when it reaches the right edge of the box.",
       "page": 12
     },
     {
       "level": "H1",
       "text": "Add a comment in callout",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Note: You can also paste a block of text by selecting and copying the text in any application, selecting the Hand tool in Acrobat, and choosing Edit > Paste.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "To delete the text box, select it and then press Delete .",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "• To change the color, opacity, or line characteristics, right-click and choose Properties , and then select the options you want.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "• Using the Select tool, select an edge of the text box and then drag a corner to resize it. Right-click the text box to open the Text Box Properties and change the border and fill options.",
       "page": 12
     },
     {
@@ -302,14 +452,84 @@
       "page": 13
     },
     {
+      "level": "H2",
+      "text": "Note: Be sure to use the Attach file option from the Add Comments tool when attaching files for a document review. Document-level file attachments that you attach using the Attach file tool from the Edit > More menu aren’t tracked with other comments in a review workflow and may cause your attached comments to be lost.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Note: In Acrobat Reader , commenting tools are available only in PDFs that have commenting enabled. PDFs in a review workflow typically include commenting rights.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Note: To delete the attachment, right-click the attached comment icon, and choose Delete.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Use the Attach file tool to embed a file at a selected location in a PDF, so that the reader can open it for viewing. By adding attachments as a comment, you can reference longer documents that can’t easily be pasted into a pop-up note or text box. If you move the PDF to a new location, the embedded file automatically goes with it. To view an attachment, the reader must have an application installed that can open the attachment.",
+      "page": 13
+    },
+    {
       "level": "H1",
       "text": "Commenting preferences",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Enable Text Indicators And Tooltips",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Ensure That Pop-ups Are Visible As The Document Is Scrolled",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Font, Font Size",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "In Windows , you can determine the font and the size of text in pop-up notes. In Mac OS , you can select only Large, Medium, or Small settings for the font. This setting applies to all new and existing comments.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Instead of selecting this option, you can print comment text in various layouts by choosing File > Print, and click Summarize Comments .",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Note: A reviewer can place comments anywhere within the document frame. As a result, sometimes you need to scroll or zoom out to see comments that are located off the page.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Pop-up Opacity",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Print Notes And Pop-ups",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Show Lines Connecting Comment Markups To Their Pop-ups On Mouse Rollover",
       "page": 14
     },
     {
       "level": "H1",
       "text": "Viewing comments",
       "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "As you scroll a PDF, the pop-up notes on a given page shift to stay in view within the document pane. Selected by default.",
+      "page": 15
     }
   ]
 }

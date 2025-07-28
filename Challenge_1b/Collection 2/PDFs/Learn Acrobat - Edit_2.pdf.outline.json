@@ -1,5 +1,5 @@
 {
-  "title": "Export PDF images to another format",
+  "title": "",
   "outline": [
     {
       "level": "H1",
@@ -14,6 +14,11 @@
     {
       "level": "H1",
       "text": "Note: For Photoshop, if the image is in a format supported by Photoshop 6.0 or later, your edited image is saved back into the PDF. However, if the image is in an unsupported format, Photoshop handles the image as a generic PDF image. The edited image is saved to disk instead of the PDF. Export PDF images to another format",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "You can save every page (all text, images, and vector objects on a page) to an image format. Choose Convert > Export PDF To > Image format > [Image Type]. You can also export each image in a PDF to a separate image file.",
       "page": 0
     },
     {
@@ -37,8 +42,23 @@
       "page": 2
     },
     {
+      "level": "H2",
+      "text": "Note: To temporarily change your view of the page, from the hamburger menu (Windows) or the View menu (macOS), choose View > Rotate view > Rotate view right or Rotate view left . The original page orientation is restored the next time you open the PDF.",
+      "page": 2
+    },
+    {
       "level": "H1",
       "text": "Rotate, move, delete, extract, or renumber pages in a PDF Rotate pages in a PDF",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Select the drop-down menu under PAGES SELECTED , then select the appropriate option. Alternatively, you can enter the page number you want to operate on.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "You can rotate all or select pages in a document. Rotation is based on 90-degree increments. You can rotate pages using the rotate tools in the Page Thumbnails pane or the Rotate option.",
       "page": 2
     },
     {
@@ -77,8 +97,43 @@
       "page": 3
     },
     {
+      "level": "H2",
+      "text": "Note: Any bookmarks or article threadings associated with pages aren't extracted.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Note: The creator of a PDF document can set the security to prevent the extraction of pages. To view the security settings for a document, choose Document properties from the hamburger menu (Windows) or File menu in macOS and then select the Security tab in the dialog.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "under PAGES SELECTED , then select the appropriate option. Alternatively, you can enter the page number you want to operate on.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• To create a single-page PDF for each extracted page, select Extract pages as separate files .",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• To remove the extracted pages from the original document, select Delete pages after extracting .",
+      "page": 3
+    },
+    {
       "level": "H1",
       "text": "3. In the dialog, select one or more of the following before you select Extract :",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Select the Extract pages under PAGE OPTIONS .",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "• To remove the extracted pages from the original document, select Delete pages after extracting . • To create a single-page PDF for each extracted page, select Extract pages as separate files . • To keep the original pages intact and create a single PDF for the extracted pages, deselect both options.",
       "page": 4
     },
     {
@@ -107,6 +162,21 @@
       "page": 5
     },
     {
+      "level": "H2",
+      "text": "File Size Specify the maximum file size for each document in the split.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Number of pages Specify the maximum number of pages for each document in the split.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Options . Specify the options as needed, and then select OK .",
+      "page": 5
+    },
+    {
       "level": "H1",
       "text": "Split PDFs into multiple documents",
       "page": 5
@@ -117,8 +187,18 @@
       "page": 5
     },
     {
+      "level": "H2",
+      "text": "Top-level Bookmarks If the document includes bookmarks, it creates one document for every top-level bookmark.",
+      "page": 5
+    },
+    {
       "level": "H1",
       "text": "5. Select Split multiple files . Select Add Files , and choose Add Files, Add Folders ,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "or Add Open Files . Select the files or folder, and then select OK . Select Split .",
       "page": 6
     },
     {
@@ -167,8 +247,33 @@
       "page": 7
     },
     {
+      "level": "H2",
+      "text": "To display the PDFs side by side, select Window from the hamburger menu (Windows) or the Window menu (macOS). Then select Tile > Vertically .",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "pages, press Ctrl (Windows) or command (macOS) and then select the pages. From the page thumbnail context menu, select Copy .",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• To cut or copy a page, select the page, and then select the ellipsis icon in the context menu bar displayed next to it. Select Cut or Copy from the context menu. Select between the page thumbnails where you want to paste the page. A blue horizontal marker shows the selected location where you want to paste. Select Paste from the context menu. You can paste the pages in another PDF as well.",
+      "page": 7
+    },
+    {
       "level": "H1",
       "text": "4. In the page thumbnails of the target PDF, select between the page thumbnails where",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "The page is copied into the document, and the pages are renumbered. You can paste the pages in another PDF as well. Alternatively, you can also drag the page thumbnail into the Page Thumbnails panel of the target PDF.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "you want to insert the page. A blue horizontal marker indicates the location where you want to paste. Right-select and choose Paste .",
       "page": 8
     },
     {
@@ -179,6 +284,11 @@
     {
       "level": "H1",
       "text": "3. In the left pane, select Delete pages , and the select OK to confirm.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "After you delete or replace pages, it’s a good idea to use the Reduce File Size command to rename and save the restructured document to the smallest possible file size.",
       "page": 9
     },
     {
@@ -247,6 +357,11 @@
       "page": 10
     },
     {
+      "level": "H2",
+      "text": "Note: If you select Use Logical Page Numbers in the Page Display panel of the Preferences dialog box, you can enter a page number in parentheses to delete the corresponding page. For example, if the first page in the document is numbered i, you can enter (1) in the Enter Page Range list, and the page is deleted.",
+      "page": 10
+    },
+    {
       "level": "H1",
       "text": "Replace pages between multiple PDFs",
       "page": 10
@@ -267,8 +382,28 @@
       "page": 11
     },
     {
+      "level": "H2",
+      "text": "want as replacements. For Windows, press Ctrl and then select the pages; for MacOS, press Command and then select the pages.",
+      "page": 11
+    },
+    {
       "level": "H1",
       "text": "1. Select All tools from the global bar. Then select Organize pages > Page labels. 2. Specify a page range. ( Selected implies pages selected in the Page Thumbnails panel.) 3. Select one of the following, and then select OK :",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Begin New Section : Starts a new numbering sequence. Choose a style from the pop-up menu, and enter a starting page number for the section. Specify a Prefix , if desired.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Extend Numbering Used In Preceding Section To Selected Pages : Continues the numbering sequence from previous pages without interruption.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Note: Using the Number Pages command affects only the page thumbnails on the Pages panel. You can physically add new page numbers to a PDF using the headers and footers feature.",
       "page": 12
     },
     {
@@ -277,13 +412,53 @@
       "page": 12
     },
     {
+      "level": "H2",
+      "text": "The page numbers on the document pages don't always match the page numbers that appear below the page thumbnails and in the right Page Navigation toolbar. Pages are numbered with integers, starting with page 1 for the first page of the document. Because some PDFs may contain front matter, such as a copyright page and table of contents, their body pages may not follow the numbering shown in the right Page Navigation toolbar.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Avoid editing complex elements . If the scanned PDF contains tables, graphs, or images, avoid unnecessary edits that could alter the layout or formatting of these elements.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Check for compatibility issues . Ensure that the version of Adobe Acrobat you're using is compatible with the scanned PDF. If you encounter compatibility issues, try updating Adobe Acrobat. For more information, see System requirements .",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Check the accuracy of optical character recognition (OCR) output . When you open a scanned document, Acrobat automatically runs OCR in the background to make the document editable. Before editing, review the document to ensure that the content is accurate and complete. If necessary, rescan the document using the Scan & OCR > Recognize Text tool to improve the output.",
+      "page": 13
+    },
+    {
       "level": "H1",
       "text": "Edit Scanned PDFs",
       "page": 13
     },
     {
+      "level": "H2",
+      "text": "Enhance image quality . If the scanned PDF contains low-quality images, use the Enhance scanned file or Enhance camera image feature to improve the quality of images before attempting to edit the document. For more information, see Scan documents to PDF .",
+      "page": 13
+    },
+    {
       "level": "H1",
       "text": "Recognize text on scanned PDF",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Remove security restrictions . If the scanned PDF has security restrictions that prevent editing, remove these restrictions before attempting to edit the document. To know how to remove security from a PDF, see Unlock a PDF .",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Save a backup copy . Always save a backup copy of the original scanned PDF before making any edits. Revert to the original document if any issues arise during the editing process.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Use the correct font and formatting . When editing the document, ensure that the font and formatting of the edited text match the original document as closely as possible. If you don't have the desired fonts on your computer, see Add fonts to your computer .",
       "page": 13
     },
     {
@@ -359,6 +534,21 @@
     {
       "level": "H1",
       "text": "Enhance scanned file or camera images for clear PDFs",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "You can capture document photos with your smartphone and use the Enhance camera image feature to create polished, clear, and compact PDFs without needing a standard scanner. This feature addresses common issues in mobile-captured images, such as incorrect perspectives, areas beyond boundaries, shadows, and inconsistent lighting. While it may not eliminate all problems, it significantly improves the overall quality of your resulting PDF.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "enhancement level slider in the secondary toolbar.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "opens, select Enhance .",
       "page": 15
     }
   ]

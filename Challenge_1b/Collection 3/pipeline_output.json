@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-28T17:41:11.892197"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Chicken Alfredo Ingredients:",
+      "importance_rank": 1,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Lasagna Ingredients:",
+      "importance_rank": 2,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": " 1 pound ground beef  1 small onion, diced  2 cloves garlic, minced  1 jar (24 ounces) marinara sauce  1 can (15 ounces) ricotta cheese  1 egg  1/4 cup grated Parmesan cheese  1 teaspoon dried basil  1 teaspoon dried oregano  9 lasagna noodles, cooked  2 cups shredded mozzarella cheese Instructions:",
+      "importance_rank": 3,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": " Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings Instructions:",
+      "importance_rank": 4,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Paella Ingredients:",
+      "importance_rank": 5,
+      "page_number": 14
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \nShredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings \nInstructions: \n \nIn a skillet, cook ground beef over medium heat until browned. \n \nAdd diced onion and minced garlic, sauté until softened. \n \nStir in taco seasoning and water, simmer until thickened. \n \nServe beef mixture in taco shells or tortillas with desired toppings. \n \n \n \nLasagna \nIngredients: \n \n1 pound ground beef \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 jar (24 ounces) marinara sauce \n \n1 can (15 ounces) ricotta cheese \n \n1 egg \n \n1/4 cup grated Parmesan cheese \n \n1 teaspoon dried basil \n \n1 teaspoon dried oregano \n \n9 lasagna noodles, cooked \n \n2 cups shredded mozzarella cheese \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nIn a skillet, cook ground beef, diced onion, and minced garlic until browned. \n \nStir in marinara sauce and simmer for 10 minutes. \n \nIn a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano. \n \nSpread a thin layer of meat sauce in a baking dish. \n \nLayer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3 \nof the shredded mozzarella cheese. \n \nRepeat layers twice more. \n \nCover with foil and bake for 25 minutes. \n \nRemove foil and bake for an additional 25 minutes until cheese is melted and bubbly. \n \nLet stand for 10 minutes before serving. \n \n \n \nChicken Alfredo \nIngredients: \n \n4 boneless, skinless chicken breasts \n \n1 pound fettuccine \n \n1 cup heavy cream \n \n1/2 cup grated Parmesan cheese \n \n1/4 cup butter",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \nShredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings \nInstructions: \n \nIn a skillet, cook ground beef over medium heat until browned. \n \nAdd diced onion and minced garlic, sauté until softened. \n \nStir in taco seasoning and water, simmer until thickened. \n \nServe beef mixture in taco shells or tortillas with desired toppings. \n \n \n \nLasagna \nIngredients: \n \n1 pound ground beef \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 jar (24 ounces) marinara sauce \n \n1 can (15 ounces) ricotta cheese \n \n1 egg \n \n1/4 cup grated Parmesan cheese \n \n1 teaspoon dried basil \n \n1 teaspoon dried oregano \n \n9 lasagna noodles, cooked \n \n2 cups shredded mozzarella cheese \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nIn a skillet, cook ground beef, diced onion, and minced garlic until browned. \n \nStir in marinara sauce and simmer for 10 minutes. \n \nIn a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano. \n \nSpread a thin layer of meat sauce in a baking dish. \n \nLayer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3 \nof the shredded mozzarella cheese. \n \nRepeat layers twice more. \n \nCover with foil and bake for 25 minutes. \n \nRemove foil and bake for an additional 25 minutes until cheese is melted and bubbly. \n \nLet stand for 10 minutes before serving. \n \n \n \nChicken Alfredo \nIngredients: \n \n4 boneless, skinless chicken breasts \n \n1 pound fettuccine \n \n1 cup heavy cream \n \n1/2 cup grated Parmesan cheese \n \n1/4 cup butter",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \nShredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings \nInstructions: \n \nIn a skillet, cook ground beef over medium heat until browned. \n \nAdd diced onion and minced garlic, sauté until softened. \n \nStir in taco seasoning and water, simmer until thickened. \n \nServe beef mixture in taco shells or tortillas with desired toppings. \n \n \n \nLasagna \nIngredients: \n \n1 pound ground beef \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 jar (24 ounces) marinara sauce \n \n1 can (15 ounces) ricotta cheese \n \n1 egg \n \n1/4 cup grated Parmesan cheese \n \n1 teaspoon dried basil \n \n1 teaspoon dried oregano \n \n9 lasagna noodles, cooked \n \n2 cups shredded mozzarella cheese \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nIn a skillet, cook ground beef, diced onion, and minced garlic until browned. \n \nStir in marinara sauce and simmer for 10 minutes. \n \nIn a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano. \n \nSpread a thin layer of meat sauce in a baking dish. \n \nLayer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3 \nof the shredded mozzarella cheese. \n \nRepeat layers twice more. \n \nCover with foil and bake for 25 minutes. \n \nRemove foil and bake for an additional 25 minutes until cheese is melted and bubbly. \n \nLet stand for 10 minutes before serving. \n \n \n \nChicken Alfredo \nIngredients: \n \n4 boneless, skinless chicken breasts \n \n1 pound fettuccine \n \n1 cup heavy cream \n \n1/2 cup grated Parmesan cheese \n \n1/4 cup butter",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \nShredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings \nInstructions: \n \nIn a skillet, cook ground beef over medium heat until browned. \n \nAdd diced onion and minced garlic, sauté until softened. \n \nStir in taco seasoning and water, simmer until thickened. \n \nServe beef mixture in taco shells or tortillas with desired toppings. \n \n \n \nLasagna \nIngredients: \n \n1 pound ground beef \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 jar (24 ounces) marinara sauce \n \n1 can (15 ounces) ricotta cheese \n \n1 egg \n \n1/4 cup grated Parmesan cheese \n \n1 teaspoon dried basil \n \n1 teaspoon dried oregano \n \n9 lasagna noodles, cooked \n \n2 cups shredded mozzarella cheese \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nIn a skillet, cook ground beef, diced onion, and minced garlic until browned. \n \nStir in marinara sauce and simmer for 10 minutes. \n \nIn a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano. \n \nSpread a thin layer of meat sauce in a baking dish. \n \nLayer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3 \nof the shredded mozzarella cheese. \n \nRepeat layers twice more. \n \nCover with foil and bake for 25 minutes. \n \nRemove foil and bake for an additional 25 minutes until cheese is melted and bubbly. \n \nLet stand for 10 minutes before serving. \n \n \n \nChicken Alfredo \nIngredients: \n \n4 boneless, skinless chicken breasts \n \n1 pound fettuccine \n \n1 cup heavy cream \n \n1/2 cup grated Parmesan cheese \n \n1/4 cup butter",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \n1 pound ground beef \n \n1/2 pound ground pork \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1/2 cup breadcrumbs \n \n1/4 cup milk \n \n1 egg, beaten \n \n1/4 cup ketchup \n \n1 tablespoon Worcestershire sauce \n \n1 teaspoon salt \n \n1/2 teaspoon pepper \nInstructions: \n \nPreheat oven to 350°F (175°C). \n \nIn a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, \nmilk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper. \n \nShape the mixture into a loaf and place in a baking dish. \n \nBake for 1 hour until cooked through. \n \nLet rest before slicing and serving. \n \n \n \nPaella \nIngredients: \n \n1/2 pound chicken breast, cubed \n \n1/2 pound shrimp, peeled and deveined \n \n1/2 pound mussels, cleaned \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 bell pepper, diced \n \n1 cup short-grain rice \n \n2 cups chicken broth \n \n1/2 cup white wine \n \n1/4 cup olive oil \n \n1 teaspoon saffron \n \n1 teaspoon paprika \n \nSalt and pepper to taste \n \nLemon wedges for garnish \nInstructions: \n \nIn a large skillet, heat olive oil over medium heat. \n \nCook cubed chicken until browned, then set aside. \n \nIn the same skillet, sauté diced onion, minced garlic, and diced bell pepper until \nsoftened. \n \nStir in rice, chicken broth, white wine, saffron, paprika, salt, and pepper. \n \nBring to a boil, then reduce heat and simmer for 15 minutes.",
+      "page_number": 14
+    }
+  ]
+}

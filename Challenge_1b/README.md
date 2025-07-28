@@ -4,18 +4,18 @@ Unlock the power of semantic search and advanced PDF processing with our robust,
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 **Semantic section extraction** using Sentence Transformers
-- 📄 Handles complex, multi-document PDF collections
-- 🐳 **Dockerized** for zero-hassle setup and reproducibility
-- ⚡ Fast, scalable, and easy to extend
-- 🛠️ Clean, modular Python codebase
-- 💡 Plug-and-play: just mount your data and run!
+-  **Semantic section extraction** using Sentence Transformers
+-  Handles complex, multi-document PDF collections
+-  **Dockerized** for zero-hassle setup and reproducibility
+-  Fast, scalable, and easy to extend
+-  Clean, modular Python codebase
+-  Plug-and-play: just mount your data and run!
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 1. **Input**: JSON file describing persona, job, and a list of PDF documents.
 2. **Processing**:
@@ -30,26 +30,75 @@ Unlock the power of semantic search and advanced PDF processing with our robust,
 
 ---
 
-## 🚀 Quickstart (Docker)
+## Project Structure
 
-### 1. Build the Docker image
-
-From your project root:
-```sh
-docker build -t semicolon1b-pipeline -f Challenge_1b/Dockerfile Challenge_1b
 ```
-
-### 2. Run the pipeline
-
-Mount your data directory and run:
-```sh
-docker run --rm -v "$PWD/Challenge_1b/Collection 1:/data" semicolon1b-pipeline "/data/challenge1b_input.json" "/data/PDFs" "/data/pipeline_output.json" 5
+Challenge_1b/
+├── main_pipeline.py       # The main executable for the pipeline
+├── HeadingExtraction.py   # Module for extracting headings from PDFs
+├── section_text_extractor.py # Module for extracting text from sections
+├── Dockerfile             # Containerization for easy deployment
+├── requirements.txt       # All dependencies, pinned for reproducibility
+├── Collection 1/
+│   ├── challenge1b_input.json
+│   └── PDFs/              # Input PDFs for Collection 1
+├── Collection 2/
+│   ├── challenge1b_input.json
+│   └── PDFs/              # Input PDFs for Collection 2
+└── Collection 3/
+    ├── challenge1b_input.json
+    └── PDFs/              # Input PDFs for Collection 3
 ```
-- Adjust the mount and arguments for other collections as needed.
 
 ---
 
-## 📥 Input / 📤 Output Format
+## Generated Files
+
+For each PDF processed, the pipeline generates two intermediate JSON files in the same directory as the PDF:
+
+-   **`[pdf_name].outline.json`**: Contains the extracted hierarchical outline of the document.
+-   **`[pdf_name].sections.json`**: Contains the extracted text content for each section identified in the outline.
+
+These files are used in subsequent steps of the pipeline and can also be useful for debugging or manual inspection.
+
+The final output of the pipeline for each collection is `pipeline_output.json`.
+---
+
+## Quickstart (Docker)
+
+### 1. Build the Docker Image
+
+First, build the Docker image from the root directory of the repository.
+
+```sh
+docker build -t semicolon1b-pipeline -f Challenge_1b/Dockerfile .
+```
+
+### 2. Run the Pipeline
+
+Run the pipeline from the root directory of the repository. The following commands demonstrate how to run the pipeline for each collection.
+
+#### For Collection 1:
+
+```sh
+docker run --rm -v "%cd%/Challenge_1b/Collection 1:/data" semicolon1b-pipeline "/data/challenge1b_input.json" "/data/PDFs" "/data/pipeline_output.json" 5
+```
+
+#### For Collection 2:
+
+```sh
+docker run --rm -v "%cd%/Challenge_1b/Collection 2:/data" semicolon1b-pipeline "/data/challenge1b_input.json" "/data/PDFs" "/data/pipeline_output.json" 5
+```
+
+#### For Collection 3:
+
+```sh
+docker run --rm -v "%cd%/Challenge_1b/Collection 3:/data" semicolon1b-pipeline "/data/challenge1b_input.json" "/data/PDFs" "/data/pipeline_output.json" 5
+```
+
+---
+
+## Input / Output Format
 
 ### Input JSON Example
 
@@ -96,7 +145,7 @@ docker run --rm -v "$PWD/Challenge_1b/Collection 1:/data" semicolon1b-pipeline "
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 Our pipeline is designed for robust, accurate, and scalable semantic section extraction from PDFs. Here’s a step-by-step breakdown of the logic:
 
@@ -105,8 +154,8 @@ Our pipeline is designed for robust, accurate, and scalable semantic section ext
 
 2. **Section Extraction**  
    For each PDF:
-   - The pipeline runs a heading extraction module (`i3.py`) to identify the document’s structure and outline.
-   - It then runs a section text extractor (`section_text_extractor.py`) to pull out the full text of each section, preserving the logical document hierarchy.
+   - The pipeline runs a heading extraction module (`HeadingExtraction.py`) to identify the document’s structure and outline. This generates a `.outline.json` file for each PDF.
+   - It then runs a section text extractor (`section_text_extractor.py`) to pull out the full text of each section, preserving the logical document hierarchy. This generates a `.sections.json` file for each PDF.
 
 3. **Query Construction & Embedding**  
    - The persona and job/task are combined into a single query string (e.g., "Researcher Find key insights on French cuisine").
@@ -133,7 +182,7 @@ This logic ensures that users get the most contextually relevant information fro
 
 ---
 
-## 💪 Why Use This Solution?
+##  Why Use This Solution?
 
 - **Production-ready**: Fully containerized, works out-of-the-box on any machine with Docker.
 - **State-of-the-art NLP**: Harnesses the power of modern transformer models for deep semantic understanding.
@@ -147,4 +196,3 @@ This logic ensures that users get the most contextually relevant information fro
 
 - Developed by the team semicolon
 - Built with open-source libraries: [PyMuPDF](https://pymupdf.readthedocs.io/), [sentence-transformers](https://www.sbert.net/), [transformers](https://huggingface.co/transformers/)
-- Inspired by the need for smarter, faster document analysis

@@ -1,6 +1,11 @@
 {
-  "title": "A Culinary Journey Through the South of France",
+  "title": "A Culinary Journey Through the South of France  Introduction  The South of France, known for its stunning landscapes and charming villages, is also a paradise for food lovers. The region's cuisine is a delightful blend of Mediterranean flavors, fresh ingredients, and traditional recipes passed down through generations. This guide will take you through the diﬀerent types of food, famous dishes, must-visit restaurants, renowned wine regions, and the types of wines they produce to help you plan an unforgettable culinary adventure.",
   "outline": [
+    {
+      "level": "H1",
+      "text": "A Culinary Journey Through the South of France",
+      "page": 0
+    },
     {
       "level": "H1",
       "text": "Introduction",
@@ -8,7 +13,37 @@
     },
     {
       "level": "H1",
+      "text": "Types of Food",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Famous Dishes",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Must-Visit Restaurants",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Wine Regions and Types of Wines",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Culinary Experiences",
+      "page": 5
+    },
+    {
+      "level": "H1",
       "text": "Conclusion",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "The South of France oﬀers a rich and diverse culinary landscape that is sure to delight any food lover. From fresh seafood and Provençal dishes to iconic restaurants and unique culinary experiences, there is something for everyone to enjoy. Whether you're savoring a bowl of bouillabaisse by the sea, exploring vibrant food markets, or indulging in a Michelin-starred meal, the flavors of this beautiful region will leave a lasting impression. Use this guide to plan your culinary journey and savor the tastes of the South of France, creating memories that will linger long after your trip has ended. Bon appétit!",
       "page": 7
     }
   ]

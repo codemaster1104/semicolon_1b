@@ -8,12 +8,57 @@
     },
     {
       "level": "H2",
+      "text": "Adobe Acrobat Reader users can save a copy of a PDF or PDF Portfolio if the creator of the document has enabled usage rights. If a document has additional or restricted usage rights, the document message bar under the toolbar area describes the assigned restrictions or privileges.",
+      "page": 1
+    },
+    {
+      "level": "H2",
       "text": "Export",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "If you don’t have access to the source files that created an Adobe PDF , you can still copy images and text from the PDF to use elsewhere. You can also export the PDF to a reusable format, or export images in a PDF to another format.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Note:",
       "page": 1
     },
     {
       "level": "H1",
       "text": "Save a PDF",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Use this method to save PDFs, including PDF Portfolios , and PDFs in which you have added comments, form field entries, and digital signatures.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "You can save your changes to an Adobe PDF or PDF Portfolio in the original PDF or in a copy of the PDF. You can also save individual PDFs to other file formats, including text, XML, HTML, and Microsoft Word .",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "• In Acrobat Reader, for Windows, select the hamburger menu   and then select> Save As . For macOS, select File > Save as Text .",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "• To save a copy of a PDF Portfolio, select File > Save .",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "• To save a copy of a PDF in Windows, select the hamburger menu   and then select Save As . For macOS, select File > Save As .",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "• To save changes, select Save to computer from the upper right. Alternatively you can also select the hamburger menu  and select Save . For macOS, select File > Save .",
       "page": 1
     },
     {
@@ -27,8 +72,23 @@
       "page": 3
     },
     {
+      "level": "H2",
+      "text": "On macOS, select the File menu > Revert .",
+      "page": 3
+    },
+    {
       "level": "H1",
       "text": "Recover the last saved version",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• A document created using the Web Capture feature or extracted from a larger PDF ( All tools > Organize Pages > Extract ). You must save the document to enable automatic saving of changes.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "• A document displayed in a web browser or incorporated into a container document that supports Object Linking and Embedding (OLE). This document appears outside the default file system and cannot support automatic saving.",
       "page": 3
     },
     {
@@ -84,6 +144,11 @@
     {
       "level": "H1",
       "text": "Set up automatic saving",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "To control changes and quality trade-oﬀs, use PDF Optimizer in Acrobat Pro , which makes more options available. You can also easily convert from other file formats to PDF using our online tools such as Word to PDF and Convert PDF .",
       "page": 4
     },
     {
@@ -147,13 +212,88 @@
       "page": 7
     },
     {
+      "level": "H2",
+      "text": "If you want to use the same settings every time you convert PDFs to a particular format, specify those settings in the Preferences dialog box. In the Convert From PDF panel, select a file format from the list and select Edit Settings . You can select the Defaults at the top of the Save as Settings dialog box to revert to the default settings.",
+      "page": 7
+    },
+    {
       "level": "H1",
       "text": "Image conversion settings",
       "page": 7
     },
     {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Image format . From the drop-down menu next to Image format , select the format you want your image to be. You",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "To convert a PDF to different file formats, select Convert from the global bar. Each file format includes unique conversion settings. Alternatively, you can use the Export a PDF tool from the All tools menu.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "You can resave PDFs as optimized PDFs using settings in the PDF Optimizer dialog box. The PDF Optimizer lets you change the compatibility version of your PDFs so they can be viewed using older versions of Acrobat or Acrobat Reader. When you change the compatibility setting, newer features may be unavailable in the PDF. For an explanation of each compatibility setting, view PDF compatibility levels .",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "get JPEG and JPEG 2000 options. Select the settings icon to change the export preferences.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• Grayscale/Color: Specifies a compression setting that balances file size with image quality. The smaller the file, the lesser the image quality.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• Tile Size: Divides the image being compressed into tiles of the given size. (If the image height or width is not an even multiple of the tile size, partial tiles are used on the edges.) Image data for each tile is individually compressed and can be individually",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Colorspace/Resolution",
+      "page": 8
+    },
+    {
       "level": "H1",
       "text": "Conversion",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "If you use the Export To or Export All Images command on a PDF that contains JPEG and JPEG 2000 images, and export the content to JPEG or JPEG 2000 format, the resulting image may look different when opened in Acrobat. This can happen if the images have a color profile included at the page level but not inside the image data. In this case, Acrobat cannot bring the page-level color profile into the resulting saved image.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Image format . From the drop-down",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "RGB/CMYK/Grayscale",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "menu next to Image format , select PNG . Select the settings icon to change the export preferences.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• Baseline (Optimized): Optimizes color quality of the image and produces smaller file sizes but is not supported by all web browsers.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• Baseline (Standard): Displays the image when it has fully downloaded. This JPEG format is recognizable to most web browsers.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• Format: Determines how the file is displayed. Available only in JPEG format. It provides the following options:",
       "page": 8
     },
     {
@@ -162,8 +302,48 @@
       "page": 8
     },
     {
+      "level": "H2",
+      "text": "Filter: Lets you select a filtering algorithm.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Interlace",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "RGB/Grayscale",
+      "page": 9
+    },
+    {
       "level": "H1",
       "text": "• Adaptive: Applies the filtering algorithm—Sub, Up, Average, or Paeth—best suited for the image. Select Adaptive if you are unsure of which filter to use. Color management",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• Average: Optimizes the compression of low-level noise by averaging the color values of adjacent pixels.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• None : Compresses the image without a filter. Recommended for indexed-color and Bitmap-mode images.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• Paeth : Optimizes the compression of low-level noise by reassigning adjacent color values.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• Sub: Optimizes the compression of images with even horizontal patterns or blends.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• Up: Optimizes the compression of images with even vertical patterns.",
       "page": 9
     },
     {
@@ -172,8 +352,83 @@
       "page": 10
     },
     {
+      "level": "H2",
+      "text": "Monochrome",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "RGB/CMYK/Grayscale/Other",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "menu next to Image format , select TIFF . Select the settings icon to change the export preferences.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Comments Settings",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Image Settings",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Microsoft Word. From the drop-down menu next to Microsoft Word , select the format you want your document to be in . You",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Layout Settings",
+      "page": 11
+    },
+    {
       "level": "H1",
       "text": "PDF to Microso Ō Word conversion seƫngs",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Text Recognition Settings",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "get DOC and DOCX options. Select the settings icon to change the export preferences.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Include Comments: Exports comments to the output ﬁle.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Include Images: Exports images to the output ﬁle.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Recognize Text If Needed: Recognizes text if the PDF contains images that contain text.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Retain Flowing Text: Speciﬁes that text ﬂow must be retained.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Retain Page Layout: Speciﬁes that page layout must be retained.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "• Set Language: Speciﬁes the language se ƫng for OCR.",
       "page": 11
     },
     {
@@ -197,8 +452,28 @@
       "page": 12
     },
     {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Other format. From the drop-down menu",
+      "page": 12
+    },
+    {
       "level": "H1",
       "text": "PDF to RTF conversion se ƫngs",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "next to Other format , select RTF . Select the settings icon to change the export preferences.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "select RTF .",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "select Save .",
       "page": 12
     },
     {
@@ -222,13 +497,38 @@
       "page": 14
     },
     {
+      "level": "H2",
+      "text": "next to Other format , select HTML . Select the settings icon to change the export preferences.",
+      "page": 14
+    },
+    {
       "level": "H1",
       "text": "Content se ƫngs",
       "page": 15
     },
     {
+      "level": "H2",
+      "text": "Detect and Remove Headers and Footers",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Include Images",
+      "page": 15
+    },
+    {
       "level": "H1",
       "text": "Multiple html pages",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Recognize Text If Needed",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Set Language",
       "page": 15
     },
     {
@@ -277,8 +577,38 @@
       "page": 17
     },
     {
+      "level": "H2",
+      "text": "Excel Workbook Settings",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Microsoft Excel . From the drop down menu next to Microsoft Excel, select the format you want your Excel to be. You",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Numeric Settings",
+      "page": 17
+    },
+    {
       "level": "H1",
       "text": "Text recogni Ɵon se ƫngs",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "get XLSX and XML options. Select the settings icon to change the export preferences.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "• Detect decimal and thousands separators using regional settings",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "• Treat the following as decimal and thousands separators . Then enter or selecct separators in the respective fields.",
       "page": 17
     },
     {
@@ -297,6 +627,56 @@
       "page": 19
     },
     {
+      "level": "H2",
+      "text": "ASCII or Binary",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Convert True Type to Type 1",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Font Inclusion",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Include Comments",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Include Preview",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Page Range",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "PostScript",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Printer Description File",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Specifies the level of PostScript compatibility. Use Language Level 3 only if the target output device supports it. Language Level 2 is suitable for EPS files placed in another document and color-separated as part of that document. Use Language Level 2 for EPS files that you import into Microsoft applications.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "next to Other format , select PS or EPS . Select the settings icon to change the export preferences.",
+      "page": 20
+    },
+    {
       "level": "H1",
       "text": "Convert PDF to Text and XML 1.0",
       "page": 21
@@ -312,13 +692,83 @@
       "page": 21
     },
     {
+      "level": "H2",
+      "text": "Encoding",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "In Acrobat, select All tools > Export a PDF and select Other format. From the drop-down",
+      "page": 21
+    },
+    {
       "level": "H1",
       "text": "Output file settings",
       "page": 21
     },
     {
+      "level": "H2",
+      "text": "Refers to the binary values, based on international standards, used to represent the text characters. UTF-8 is a Unicode representation of characters using one or more 8-bit bytes per character. UTF-16 represents characters using 16-bit bytes. ISO-Latin-1 is an 8-bit representation of characters that is a superset of ASCII. UCS-4 is a Universal Character Set coded in four octets. HTML/ASCII is a 7-bit representation of characters developed by ANSI.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "To export a file in XML format, go to All Tools > Export a PDF .  Select other format, then the drop-down next to other format, and then select XML 1.0 .",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "To export a file in text format, go to All Tools > Export a PDF .  Select other format , then the drop-down next to other format , and then select TXT .",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "menu next to Other format , select TXT or XML 1.0 . Select the settings icon to change the export preferences.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Downsample To",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Generate Bookmarks",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Generate Images",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Generate Tags For Untagged Files",
+      "page": 22
+    },
+    {
       "level": "H1",
       "text": "Image file settings",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Output Format",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Use Prefix",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Use Sub-Folder",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Use mapping table default uses the default character encoding defined in mapping tables, which appear in the Plug-ins/SaveAsXML/MappingTables folder. These mapping tables specify many characteristics of how the data is output, including the following default character encodings: UTF-8 (Save as XML or HTML 4.0.1) and HTML/ASCII (Save as HTML 3.2).",
       "page": 22
     },
     {
@@ -358,7 +808,22 @@
     },
     {
       "level": "H1",
+      "text": "4. elect Convert to TIFF.",
+      "page": 24
+    },
+    {
+      "level": "H1",
       "text": "Convert PDF to PNG",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "down menu, select PNG .",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "down menu, select TIFF.",
       "page": 24
     },
     {
@@ -408,7 +873,22 @@
     },
     {
       "level": "H2",
+      "text": "Export images from PDFs",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Management , Conversion , and Extraction settings for the file type.",
+      "page": 25
+    },
+    {
+      "level": "H2",
       "text": "Overview",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "different folder to select alternate locations.",
       "page": 25
     },
     {
@@ -452,9 +932,39 @@
       "page": 27
     },
     {
+      "level": "H2",
+      "text": "Select a column of text",
+      "page": 27
+    },
+    {
       "level": "H1",
       "text": "Select and copy text and images",
       "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Select text and images",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "The Select tool lets you select horizontal and vertical text or columns of text, images,",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "vector objects, and tables in a PDF. The Select tool recognizes the type of content under the cursor and changes automatically. You can use the Copy, Copy with Formatting, Export Selection As, and Paste commands to copy the selected text into another application. Note the following:",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "• If you’re unable to select text, the text may be part of an image. In Acrobat, select All tools > Scan & OCR, then select In this file under RECOGNIZE TEXT to export image text to text that can be selected.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "(macOS) Press command + V .",
+      "page": 28
     },
     {
       "level": "H1",
@@ -488,6 +998,31 @@
     },
     {
       "level": "H1",
+      "text": "3. (Windows) Press Ctrl + V .",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Note: If you choose any other page layout, all the text in the document is selected. Copy selected text",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Paste copied text and images",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Select all the text on a page",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "left and then select view (Windows). Select Page display > Single-page view .",
+      "page": 28
+    },
+    {
+      "level": "H1",
       "text": "1. Select the Select tool . Press Ctrl (Windows) or Command (macOS) to create a rectangular selection.",
       "page": 29
     },
@@ -504,6 +1039,46 @@
     {
       "level": "H1",
       "text": "Convert selected content to other formats",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Note: To copy a table in RTF, drag the selected table into an open document in the target application.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Note: To select tables that exceed one page, try changing the page display to Single Page before selecting the tables. Then select View > Page Display > Enable Scrolling . 3. Right-click the selection, select Export Selection As, and specify a filename.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Saves the content as a PowerPoint (.pptx) file.",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "press Alt (Windows).",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "• Excel Workbook, XML Spreadsheet, or CSV",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "• PowerPoint",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "• Rich Text Format or HTML",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "• Word Document or Word 97-2003",
       "page": 29
     }
   ]

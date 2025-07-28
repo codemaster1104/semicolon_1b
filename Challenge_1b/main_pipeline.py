@@ -5,9 +5,9 @@ import subprocess
 from sentence_transformers import SentenceTransformer, util
 from datetime import datetime
 
-def run_i3(pdf_path, outline_path):
-    # Run i3.py to extract headings
-    subprocess.run([sys.executable, "i3.py", pdf_path, outline_path], cwd=os.path.dirname(__file__), check=True)
+def run_HeadingExtraction(pdf_path, outline_path):
+    # Run HeadingExtraction.py to extract headings
+    subprocess.run([sys.executable, "HeadingExtraction.py", pdf_path, outline_path], cwd=os.path.dirname(__file__), check=True)
 
 def run_section_text_extractor(pdf_path, outline_path, section_texts_path):
     # Run section_text_extractor.py to extract section texts
@@ -53,7 +53,7 @@ def main(input_json_path, pdfs_dir, output_json_path, top_n=5):
         section_texts_path = pdf_path + ".sections.json"
 
         # Step 1: Extract headings
-        run_i3(pdf_path, outline_path)
+        run_HeadingExtraction(pdf_path, outline_path)
 
         # Step 2: Extract section texts
         run_section_text_extractor(pdf_path, outline_path, section_texts_path)
@@ -75,9 +75,12 @@ def main(input_json_path, pdfs_dir, output_json_path, top_n=5):
     section_embeddings = model.encode([s["section_text"] for s in all_sections])
 
     # Step 6: Compute similarity and rank
-    similarities = util.cos_sim(query_embedding, section_embeddings)[0].cpu().tolist()
-    for i, sim in enumerate(similarities):
-        all_sections[i]["similarity"] = sim
+    if section_embeddings.size > 0 and len(all_sections) > 0:
+        similarities = util.cos_sim(query_embedding, section_embeddings)[0].cpu().tolist()
+        for i, sim in enumerate(similarities):
+            all_sections[i]["similarity"] = sim
+    else:
+        print("Warning: No sections found for similarity computation.")
 
     # Step 7: Sort and select top N
     all_sections_sorted = sorted(all_sections, key=lambda x: x["similarity"], reverse=True)

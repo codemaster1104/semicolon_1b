@@ -2,8 +2,18 @@
   "title": "Persistent chat history",
   "outline": [
     {
+      "level": "H2",
+      "text": "Note:",
+      "page": 0
+    },
+    {
       "level": "H1",
       "text": "Persistent chat history",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "The option Enable generative AI features in Acrobat is displayed only if you previously opted in for the generative AI features.",
       "page": 0
     },
     {
@@ -22,6 +32,11 @@
       "page": 1
     },
     {
+      "level": "H2",
+      "text": "your selection. Select Clear history . If you don't want to clear your chat history, select Cancel .",
+      "page": 1
+    },
+    {
       "level": "H1",
       "text": "1. Open the document from which you wish to copy the chat history. Select in the upper",
       "page": 2
@@ -34,6 +49,11 @@
     {
       "level": "H1",
       "text": "Copy chat history",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Your chat history is cleared. You see a message saying - Your chat history was cleared. To continue asking questions, start a new chat . You can select Start new chat in the lower right to ask questions. The message displays in the AI Assistant as long as the document remains open without reprocessing. Close and reopen the document to reset the Assistant and remove the message.",
       "page": 2
     },
     {
@@ -82,6 +102,21 @@
       "page": 8
     },
     {
+      "level": "H2",
+      "text": "• Open Acrobat, and then select multiple files from the home view. Select the ellipsis from the top right and then select Ask AI Assistant . • Select multiple files from third-party applications, and select Share > Adobe Acrobat > Ask AI Assistant .",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• Open Acrobat, then select Try it now from the Try AI Assistant onboarding card in the home view. Then select the files you want to add and select Next from the upper right. 2. When the file is added, chat displays the number of files added. 3. You can enter your question or choose from suggested questions. You get generated responses. If you want to view the references of the generated responses, select the reference numbers next to the responses. AI Assistant opens the source file first and then shows you the references. 4. When you use the assistant with multiple files, a collection of those files is created and shown in the Recents tab. You can resume the assistant chat with those files. You can rename the collection of those files from the contextual bar (select the ellipsis next to the file name to open the context bar) in the home view.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• When you open the collection from the Recents tab, the chat resumes from where you left off. • When you open any file that was part of any collection and launch AI Assistant, the AI Assistant allows you to resume the previous chat that involved the document.",
+      "page": 9
+    },
+    {
       "level": "H1",
       "text": "1. Select Files in the collection icon in the upper right.",
       "page": 10
@@ -109,6 +144,11 @@
     {
       "level": "H1",
       "text": "3. Select Send request . Your access request is submitted to the admin for review and",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Note: To check the status of your request, select Refresh on the AI Assistant. For more information on requesting access to Adobe products and services, see Request access to an Adobe product and Manage product requests.",
       "page": 11
     },
     {
@@ -142,8 +182,28 @@
       "page": 12
     },
     {
+      "level": "H2",
+      "text": "Assistant for Acrobat add-on subscription, select the Assign a license link to assign licenses to users from the Admin Console.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "on subscription. Specify your payment details, and then select Place secure order .",
+      "page": 12
+    },
+    {
       "level": "H1",
       "text": "5. Once your purchase is complete, you can assign licenses to users from the Add users",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "To check your subscription is activated, select Refresh on the AI Assistant.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "to this product page. Your team members receive an email notification when the product is provisioned to their account. They can select the link to launch Acrobat to access AI Assistant for Acrobat.",
       "page": 13
     },
     {
@@ -152,8 +212,43 @@
       "page": 14
     },
     {
+      "level": "H2",
+      "text": "• Approved requests: If your request is automatically or manually approved, the product license is provisioned to your Adobe account. You'll receive an email notifying you when the license is available.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "• Denied requests: If you submit your request for review and an administrator denies your request, you'll receive an email notifying you why the request was denied. Once denied, you can re-request the identical product from your organization using a more descriptive business reason.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "• Pending requests: After you submit a request for administrator review, it's awaiting approval and can remain in that state for up to 60 days. You receive an email notification at 30 days that the request is pending for review and again at 60 days when the request has expired. You cannot re-request a pending product.",
+      "page": 14
+    },
+    {
       "level": "H1",
       "text": "Common questions",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "I have multiple profiles associated with my Adobe account. How do I select which profile to send a request from?",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "What happens if my request is declined?",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "What if I can’t find the option to request access to AI Assistant for Acrobat?",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "What notifications do I receive if a request is approved, declined, or pending?",
       "page": 15
     },
     {
@@ -162,8 +257,48 @@
       "page": 16
     },
     {
+      "level": "H2",
+      "text": "• Acrobat desktop and mobile : To use AI Assistant for Acrobat, you need not turn on PDF services in the Admin Console.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• Acrobat online : Turn on PDF services for the product profile assigned to users. See how to turn on or turn off PDF services.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• Administrators : To turn on the new Acrobat for users, use the registry key mentioned in the Acrobat Enterprise Toolkit (ETK).",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• Enable new Acrobat .",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• PDF services for user profiles .",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• Update Acrobat . Ensure Acrobat is up-to-date by following instructions in the Release Notes for Acrobat. Also, refer to the basic configuration settings.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "• Users : Choose the hamburger menu (Windows) or View (macOS), then select Enable new Acrobat . For details, see how to enable the new experience.",
+      "page": 16
+    },
+    {
       "level": "H1",
       "text": "License deployment",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "You can manage the deployment of Acrobat AI Assistant through the Adobe Admin Console. As an admin, you must add users to the Admin Console using one of the methods described in Adobe Admin Console users. You can choose to either select the users to assign or create product profiles and assign users to the profiles. For more information, see Packaging apps via the Admin Console. Once you assign AI Assistant for Acrobat, the users must restart Acrobat to see AI Assistant.",
       "page": 17
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "title": "Select Visio layers to convert (Acrobat Pro)",
+  "title": "",
   "outline": [
     {
       "level": "H1",
@@ -23,8 +23,68 @@
     },
     {
       "level": "H1",
+      "text": "Note: If the Retain Some Layers In The Selected Page option is not available, deselect the Convert All Pages In Drawing option. 2. Select one or more layers in the Layers In Visio Drawing list.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "Note: If you select Retain Some Layers In The Selected Page , you’ll be prompted to choose which Visio layers to include. 1. Click Convert To Adobe PDF , specify a location and filename, and click Save .",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "Note: The name of a layer in the Layers In Visio Drawing list is unavailable if that layer is included in the Layers In PDF list. When you select that layer in the Layers In PDF list, a bullet appears next to the layer’s name in the Layers In Visio Drawing list.",
+      "page": 0
+    },
+    {
+      "level": "H1",
       "text": "Select Visio layers to convert (Acrobat Pro)",
       "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "You can convert a Visio drawing that contains layers to a PDF and retain some or all of the layers in the resulting PDF, or you can flatten the layers. You can also organize the Visio layers in layer sets , which are folders in the Acrobat Layers panel.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "select Retain Some Layers In The Selected Page .",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "type a filename, and then click Save .",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "• To convert the selected Visio layers to individual PDF layers within a PDF layer set, click Create Layer Set , and optionally, type a layer name.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "• To convert the selected Visio layers to individual layers (but not grouped under a layer set), click the Add Layer(s) button.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "• To include a visibility property that can be switched on or off in Acrobat, deselect Locked On adjacent to the PDF layer; to lock the resulting PDF layer’s visibility on, select Locked On .",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "• To reorder the layers in the Layers In PDF list, drag an item up or down in the list.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "• To save the current settings of Visio layers selected, click Save PDF Settings , and click OK . These settings are used the next time you convert the current Visio file to a PDF file.",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "Note: Visio layers that were selected for conversion and that have Visio settings for visible, printable, or lock are converted to PDF layers; the visible and printable properties are included in the resulting PDF layers. If the Visio file contains a background page, header, or footer, the PDF file automatically has PDF layers named for those items.",
+      "page": 1
     },
     {
       "level": "H1",
@@ -63,6 +123,66 @@
     },
     {
       "level": "H1",
+      "text": "Note:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "PDF or Convert To Adobe PDFAnd Send For Review .",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Settings in AutoCAD.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Use PDFMaker to convert AutoCAD files from within the AutoCAD application. You can also use the Batch Conversion feature to convert many AutoCAD files in one operation. Acrobat PDFMaker preserves selected layers and layouts when converting AutoCAD files to PDF.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "layouts, select a layout from the Layouts In PDF list, and click Move Up or Move Down .",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "then click Continue :",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Choose Adobe PDF > Convert To Adobe PDF .",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Choose Adobe PDF > Convert To Adobe PDF And Email .",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Choose Adobe PDF > Convert To Adobe PDFAnd Send For Review .",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Click a button in the Adobe PDF toolbar: Convert To Adobe",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Flatten All Layers . When layers are flattened, only those entities belonging to layers that are not frozen and are printable appear in the converted PDF.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "• Retain All Or Some Layers . In the next dialog box, specify the layers to include in the resulting PDF.",
+      "page": 2
+    },
+    {
+      "level": "H1",
       "text": "1. In AutoCAD, start to convert an AutoCAD file and select the Retain All Or Some",
       "page": 3
     },
@@ -93,7 +213,62 @@
     },
     {
       "level": "H1",
+      "text": "Layers option.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Note: To change the On , Frozen , or Plot properties for a layer, click Cancel , change the properties in the AutoCAD drawing, and restart the procedure.",
+      "page": 3
+    },
+    {
+      "level": "H1",
       "text": "Select AutoCAD layers to convert",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• Choose a previously saved set of layers from the PDF Layer Settings menu.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• Choose an option from the Named Layer Filters menu to list all layers that fit that criterion.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• Select one or more layers from the Layers In Drawing List.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• Select the Invert option to list all layers except those layers that are described by the selected choice in the Named Layer Filters menu.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• To convert all of the layers in the drawing, click Add All Layers , and go to step 5.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• To convert the selected AutoCAD layers to individual layers within a PDF layer set, click Create Layer Set . This action creates a folder of layers in the Layers navigation pane in Acrobat.",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• To convert the selected AutoCAD layers to individual layers, click Add Layer(s) .",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• To include a visibility property that can be switched on or off in Acrobat, deselect Locked On for the PDF layer. To lock the resulting PDF layer’s visibility on, select Locked On .",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "• To save the current list of selected AutoCAD layers, click Add PDF Setting . Later, you can retrieve this list from the PDF Layer Settings menu.",
       "page": 3
     },
     {
@@ -123,12 +298,77 @@
     },
     {
       "level": "H1",
+      "text": "Click Conversion Settings to specify the Acrobat PDFMaker settings.",
+      "page": 4
+    },
+    {
+      "level": "H1",
       "text": "Convert AutoCAD files in batches",
       "page": 4
     },
     {
+      "level": "H1",
+      "text": "• Click Add Folder or Add Files , and then specify the folder or files.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "• To load a previously saved list of files, click Append List , and then specify the list.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "• To save the DWG list for later use, click Save List . This action saves the list in its current state, including the file order and file selections. You can retrieve this list at any time by clicking Append List .",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "• To show the complete file paths, select Expand File Name(s) .",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Actual Size",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Add Links",
+      "page": 5
+    },
+    {
       "level": "H2",
       "text": "Application-specific PDFMaker settings",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Attach Source File",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Convert Comments",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Converts certain elements in original Office documents to PDF bookmarks: Word headings, Excel worksheet names, or PowerPoint titles. Selecting this option overrides any settings on the Bookmarks tab of the Conversion Settings dialog box.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Converts user-created Excel comments to notes and lists them in the Acrobat Comments panel.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Create Bookmarks",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Enable Accessibility And Reflow With Tagged Adobe PDF",
       "page": 5
     },
     {
@@ -138,12 +378,52 @@
     },
     {
       "level": "H1",
+      "text": "Fit Worksheet To A Single Page",
+      "page": 5
+    },
+    {
+      "level": "H1",
       "text": "Settings tab options available from within most applications",
       "page": 5
     },
     {
       "level": "H1",
+      "text": "The following settings appear on the Settings tab available from within most PDFMaker- enabled applications.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Attachments",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Compatibility",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Convert Hidden Slides To PDF Pages",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Convert Speaker Notes",
+      "page": 6
+    },
+    {
+      "level": "H1",
       "text": "Email-specific options on the Settings tab",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Fit To Paper Width",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Output Adobe PDF Portfolio When Creating A New PDF File",
       "page": 6
     },
     {
@@ -153,8 +433,148 @@
     },
     {
       "level": "H1",
+      "text": "Preserve Slide Transitions",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Prompt For Selecting Excel Sheets",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "When selected, always converts individual messages as component files of a PDF Portfolio . When deselected, merges individual messages as separate pages of a PDF.",
+      "page": 6
+    },
+    {
+      "level": "H1",
       "text": "AutoCAD-specific options on the Settings tab (Acrobat Pro)",
       "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Block Download Of External Content",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Choose Layout Option",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Compliance Standard",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Do Not Convert Model Space To 3D",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Do Not Include Folder Name Information",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Embed Index For Faster Search",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Embed Scale Information",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "If selected, the Attach As Adobe PDF button appears in the Outlook email message window.",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Open Layers Pane When Viewed In Acrobat",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Page Layout options",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Show This Number Of Recent Archives (Outlook only)",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Show “Attach As Adobe PDF” Buttons",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Specifies whether Current Layout , All Layouts , or Selected Layouts are included in the PDF.",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "When converting email messages and folders, the Adobe PDF > [ Convert Selected Messages and Convert Selected Folders ] menus can list recently created PDFs to append. This option specifies the maximum number of PDFs to list in the menus.",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "(Available only when Convert All Layouts Without Prompting is selected from Choose Layout Option .) When selected, all layouts except the model space are included in the PDF.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Always Flatten Layers In Adobe PDF",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Changes any Word comment entries to PDF comments. If the currently open Word document contains comments, more options appear in the Comments list on this tab:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Choose Layer Option",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Convert Comments To Adobe PDF Comments",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Convert Displayed Comments To Notes In Adobe PDF",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Exclude Model Space",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Exclude Visio Objects With No Custom Properties",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Include Visio Custom Properties As Object Data In The Adobe PDF",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Reviewer",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Specifies whether All Layers , Selected Layers , or No Layers are included as layers in the PDF.",
+      "page": 8
     },
     {
       "level": "H1",
@@ -168,8 +588,118 @@
     },
     {
       "level": "H1",
+      "text": "# Of Comments",
+      "page": 9
+    },
+    {
+      "level": "H1",
       "text": "Bookmarks tab settings (Microsoft Word)",
       "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Color",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Convert Footnote And Endnote Links",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Convert Word Bookmarks",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Convert Word Headings To Bookmarks",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Convert Word Styles To Bookmarks",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Convert signature fields specified by pdfmarks",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Element list",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Enable Advanced Tagging",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Include",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Note: To include bookmarks in the conversion process, you must select the Add Bookmarks To Adobe PDF option on the Settings tab. If you deselect that option, you override any options you select on this tab, and no bookmarks are created.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Notes Open",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Selects all the headings in the Elements list for conversion to PDF bookmarks.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Selects all the text styles in the Elements list for conversion to PDF bookmarks (deselected by default).",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Bookmark",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Displays X’s, indicating whether individual elements are converted to PDF bookmarks. Clicking an individual Bookmark option changes the selection status for that element.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Element",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Level",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Lists the names of all available Word headings and styles. The icons for Headings and Styles indicate the element types.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Specifies where the element fits in the hierarchy structure of the PDF Bookmarks panel. Clicking an individual Level number opens a menu that you can use to change the value.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Type",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "(Windows) For Microsoft Office documents, the Adobe PDF printer does not include some of the features that are available from PDFMaker. For example, you cannot create bookmarks and hyperlinks using the Adobe PDF printer. If you’re creating a PDF from a Microsoft Office document and you want to use these features, use PDFMaker.",
+      "page": 11
     },
     {
       "level": "H1",
@@ -208,6 +738,21 @@
     },
     {
       "level": "H1",
+      "text": "Note: Your PDF is saved in the folder specified by the setting of the Adobe PDF Output Folder in the Preferences dialog box; the default location is My Documents. If you specify Prompt For Adobe PDF Filename, then a Save As dialog opens when you print.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "The Adobe PDF printer creates untagged PDFs. A tagged structure is required for reflowing content to a handheld device and is preferable for producing reliable results with a screen reader.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "The method for creating PDFs using the Print command changed in Mac OS v10.6 Snow Leopard with Acrobat 9.1 and later. The following procedure describes the method in both Snow Leopard and earlier versions of Mac OS X.",
+      "page": 11
+    },
+    {
+      "level": "H1",
       "text": "2. Choose Save As Adobe PDF from the PDF menu at the bottom of the dialog box.",
       "page": 12
     },
@@ -232,9 +777,114 @@
       "page": 12
     },
     {
+      "level": "H1",
+      "text": "For most users, the default Adobe PDF conversion settings are adequate.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Note: By default, your PDF is saved with the same filename and a .pdf extension.",
+      "page": 12
+    },
+    {
       "level": "H2",
       "text": "Adobe PDF printing preferences (Windows)",
       "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "PDF-specific options appear on the Adobe PDF Settings tab. The Paper Quality tab and Layout tab contain other familiar options for the paper source, printer ink, page orientation, and number of pages per sheet.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Printing preferences apply to all applications that use the Adobe PDF printer, unless you change the settings in an authoring application by using the Page Setup , Document Setup , or Print menu.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "The dialog box for setting printing preferences is named Adobe PDFPrinting Preferences , Adobe PDF Printing Defaults, or Adobe PDFDocument Properties , depending on how you access it.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "• In an authoring application such as Adobe InDesign, choose File > Print. Select Adobe PDF as the printer, and click the Properties (or Preferences) button. (In some applications, you may need to click Setup in the Print dialog box to access the list of printers, and then click Properties or Preferences to customize the Adobe PDF settings.)",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "• Open the Printers window from the Start menu. Right-click the Adobe PDF printer, and choose Printing Preferences .",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Adobe PDF Output Folder",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Adobe PDF Security",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Adobe PDFConversion Settings",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Select a predefined set of options from the Default Settings menu or click Edit to view or change the settings in the Adobe PDF Settings dialog box.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "• Reconfirm Security For Each Job : Opens the Adobe PDF Security dialog box each time you create a PDF using the Adobe PDF printer. Specify the desired settings in the dialog box.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "• Use The Last Known Security Settings: Uses the same security settings that were used the last time a PDF was created using the Adobe PDF printer on your computer.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Add Document Information",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Adobe PDF Page Size menu",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Choose an output folder for the converted PDF, or click Browse to add or change the output folder. Choose Prompt For Adobe PDF Filename to specify a location and filename at the time of conversion.",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Choose if you want to replace the existing PDF Always , Ask Everytime, or Never replace.",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Delete Log Files For Successful Jobs",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Rely On System Fonts Only; Do Not Use Document Fonts",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Replace Existing PDF",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "View Adobe PDF Results",
+      "page": 15
     },
     {
       "level": "H1",
@@ -293,6 +943,26 @@
     },
     {
       "level": "H1",
+      "text": "In Windows , you can usually leave the Adobe PDF printer properties unchanged, unless you have configured printer sharing or set security.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Note: For best results, select a folder on the same system where Distiller is installed. Although remote or network folders are supported, they have limited user access and security issues.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "PDF printer.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Printing Properties are different from printer Preferences. The Properties dialog box contains tabs of options that apply to any type of printer; the Preferences include conversion options specifically for the Adobe PDF printer.",
+      "page": 16
+    },
+    {
+      "level": "H1",
       "text": "Reassign the port that the Adobe PDF printer uses",
       "page": 16
     },
@@ -329,6 +999,11 @@
     {
       "level": "H1",
       "text": "7. Select the Documents port again and click Close.",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "PDF to complete.",
       "page": 17
     }
   ]

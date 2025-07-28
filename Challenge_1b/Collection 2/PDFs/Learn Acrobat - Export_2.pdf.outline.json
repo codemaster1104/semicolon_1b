@@ -13,6 +13,16 @@
     },
     {
       "level": "H1",
+      "text": "Note: To deselect an image and start over, click outside it. 2. Right-click the image and select copy. Once done, you can paste it to a new file or a",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "Open the Preferences dialog box if you cannot select an image because of overlapping text. Select Acrobat in the upper-left (macOS) or Menu in the upper-left (Windows), then select Preferences . Under Categories , Select General . Then select the Make Select tool select images before text .",
+      "page": 0
+    },
+    {
+      "level": "H1",
       "text": "1. Select All tools > Use print production > Edit object .",
       "page": 1
     },
@@ -38,12 +48,42 @@
     },
     {
       "level": "H1",
+      "text": "Using the Edit Object tool, you can save objects into a separate PDF.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "select Save .",
+      "page": 1
+    },
+    {
+      "level": "H1",
       "text": "2. Do one of the following:",
       "page": 2
     },
     {
       "level": "H1",
+      "text": "Colors in the selected area are inverted momentarily to highlight the selection. The selection is copied automatically to the clipboard when you release the mouse/touchpad button. If a document is open in another application, go to the document, right-click, and select Paste to paste the copied selection directly into the target document.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Note:",
+      "page": 2
+    },
+    {
+      "level": "H1",
       "text": "Take a snapshot of a page",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "You can save all the images from a PDF. See Export images to another format . This feature isn’t available in Reader.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "tool , draw a rectangle, right-click, and select Take a Snapshot .",
       "page": 2
     }
   ]

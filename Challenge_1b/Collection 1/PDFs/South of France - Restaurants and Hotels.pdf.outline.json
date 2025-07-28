@@ -1,6 +1,11 @@
 {
-  "title": "Comprehensive Guide to Restaurants and Hotels in the South of France",
+  "title": "Comprehensive Guide to Restaurants and Hotels in the South of France  Introduction  The South of France, known for its stunning landscapes, rich cultural heritage, and exquisite cuisine, is a dream destination for travelers. From the glamorous beaches of the French Riviera to the charming villages of Provence, this region oﬀers a diverse array of experiences. Whether you're looking for budget-friendly options, family-friendly spots, upscale dining, or luxurious experiences, this guide will help you find the perfect restaurants and hotels for your trip.",
   "outline": [
+    {
+      "level": "H1",
+      "text": "Comprehensive Guide to Restaurants and Hotels in the South of France",
+      "page": 0
+    },
     {
       "level": "H1",
       "text": "Introduction",
@@ -8,7 +13,62 @@
     },
     {
       "level": "H1",
+      "text": "Budget-Friendly Restaurants",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Restaurants",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Family-Friendly Restaurants",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Upscale Restaurants",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Luxurious Restaurants",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Budget-Friendly Hotels",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Hotels",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Family-Friendly Hotels",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Upscale Hotels",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Luxurious Hotels",
+      "page": 11
+    },
+    {
+      "level": "H1",
       "text": "Conclusion",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "The South of France oﬀers a wide range of dining and accommodation options to suit every budget and preference. Whether you're looking for budget-friendly eateries, family-friendly spots, upscale dining, or luxurious experiences, this guide will help you find the perfect places to eat and stay during your trip. From the vibrant cities of Nice and Marseille to the charming villages of Provence, the South of France promises an unforgettable travel experience. Bon voyage!",
       "page": 13
     }
   ]

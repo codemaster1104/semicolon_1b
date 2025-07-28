@@ -8,6 +8,11 @@
     },
     {
       "level": "H1",
+      "text": "(Alternatively, you can press Ctrl+K keys on Windows® or Command+K keys on",
+      "page": 2
+    },
+    {
+      "level": "H1",
       "text": "1. Fallback font for Editing.",
       "page": 2
     },
@@ -39,6 +44,11 @@
     {
       "level": "H1",
       "text": "Set the default font for adding and editing text",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "choose Preferences . The Preferences dialog box is displayed.",
       "page": 2
     },
     {
@@ -128,6 +138,36 @@
     },
     {
       "level": "H1",
+      "text": "Content .",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "• Bold : Bolds the text.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "• Italic : Makes the text italic.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "• Subscript : Converts the sleected text into subscript.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "• Superscript : Converts the selected text into superscript.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "• Underline : Underlines the text.",
+      "page": 5
+    },
+    {
+      "level": "H1",
       "text": "2. Select the text box that you want to move, rotate, or resize.",
       "page": 6
     },
@@ -153,6 +193,21 @@
     },
     {
       "level": "H1",
+      "text": "You can change the text properties using the options under Format in the left pane.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "You can move or rotate text boxes on a page. The Edit tool outlines each text box, so it's clear",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "selection handles). When the cursor changes to Move pointer , drag the box to the",
+      "page": 6
+    },
+    {
+      "level": "H1",
       "text": "1. Move : Place the pointer over the line of the bounding box (avoid the selection",
       "page": 7
     },
@@ -169,6 +224,11 @@
     {
       "level": "H1",
       "text": "3. Resize : Place the pointer over any of the circular selection handles, and drag",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "handles). When the cursor changes to Move pointer , drag the box to the",
       "page": 7
     },
     {
@@ -213,6 +273,16 @@
     },
     {
       "level": "H1",
+      "text": "press Enter at the end of a list item to insert a new row. Press Backspace to",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "under Format Text .",
+      "page": 8
+    },
+    {
+      "level": "H1",
       "text": "3. In the Format Text section on the Edit panel, select Font color next to Font size.",
       "page": 9
     },
@@ -223,7 +293,27 @@
     },
     {
       "level": "H1",
+      "text": "For macOS: You see a Color dialog box with options to change the font color. You can",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "(macOS) Select Edit in the upper left. Then select Undo, Redo and More > Redo .",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "(macOS) Select Edit in the upper left. Then select Undo, Redo and More > Undo .",
+      "page": 10
+    },
+    {
+      "level": "H1",
       "text": "1. Open the PDF in which you want to redo the text.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "2. (Windows) Select the hamburger menu in the upper left. Then select Undo, Redo &",
       "page": 10
     },
     {
@@ -259,6 +349,16 @@
     {
       "level": "H1",
       "text": "Undo text in Acrobat",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "more > Redo .",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "more > Undo .",
       "page": 10
     },
     {
@@ -303,6 +403,21 @@
     },
     {
       "level": "H1",
+      "text": "Note:",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "or Select Generate image to generate an image from text.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "select Image .",
+      "page": 12
+    },
+    {
+      "level": "H1",
       "text": "3. In the dialog, select the image file you want to insert.",
       "page": 13
     },
@@ -317,9 +432,29 @@
       "page": 13
     },
     {
+      "level": "H2",
+      "text": "Note: Place the pointer just outside a selection handle to rotate the selected image manually. When the",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "To modify images in a PDF, select Edit from the global bar. Select the image you want to modify, then from the Edit panel, under Adjust Objects , select one of the following tools:",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "• Replace image: From the drop-down menu, select Choose image to select an image from your device or Select Generate image to an image from text.",
+      "page": 13
+    },
+    {
       "level": "H1",
       "text": "• To resize the image, select the image, hold the resize corner handles, and then drag the handles in or out to reduce or enlarge the image size. Modify images in a PDF",
       "page": 13
+    },
+    {
+      "level": "H1",
+      "text": ".From the left panel, select More from under Add Content to expand the menu and select a desired tool.",
+      "page": 14
     },
     {
       "level": "H1",
@@ -449,6 +584,16 @@
     {
       "level": "H1",
       "text": "5. To add 3D Media to the video:",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Note: Select multiple items if you want to edit them together in the same file. To edit all the images and objects on the page, choose Select All from the context menu.",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "You can edit an image or graphic using another application, such as Photoshop, Illustrator, or Microsoft® Paint. When you save the image or graphic, Acrobat automatically updates the PDF with the changes. The applications that appear in the Edit using menu depend upon what you've installed and the type of image or graphic you've selected. Optionally, you can specify the application you want to use.",
       "page": 15
     }
   ]
