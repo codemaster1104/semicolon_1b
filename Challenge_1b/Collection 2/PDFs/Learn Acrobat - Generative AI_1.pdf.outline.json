@@ -1,0 +1,270 @@
+{
+  "title": "",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Overview of generative AI features Use the generative AI features in Acrobat and Acrobat Reader to quickly scan through lengthy, complex PDF content and get answers or generate a summary. Note: The generative AI features in Acrobat and Acrobat Reader support English, French, German, Spanish, Italian, Portuguese, or Japanese. To understand the governing terms, review Adobe's Generative AI User Guidelines. To understand Adobe's data handling practices, see Content usage and handling practices. The AI-powered features in Acrobat and Acrobat Reader support multiple document types, including PDFs, DOCX, PPTX, TXT, and RTF files. AI Assistant supports Microsoft Teams and Zoom meeting transcripts. The capabilities improve comprehension and save time across various document types.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "- Improved comprehension: You can better understand complex PDF documents because the features provide insights and more context around the content. - Enhanced productivity : Work across multiple PDFs and documents in various formats, including Teams and Zoom meeting transcripts, streamlining your workflow and saving time for higher-priority tasks. - Impactful content : You can use the content suggestions that the features generate for impactful emails, presentations, meeting notes, and more. Turn off generative AI features The generative AI features in Acrobat and Acrobat Reader are turned on by default. However, you can choose to turn them off, if necessary. If you're an admin, you can revoke access to generative AI features for your team or org by contacting Adobe Customer Care. User Guidelines",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Attributions",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Chrome or Microsoft Edge. AI Assistant is also available on phones through Acrobat mobile apps (iOS and Android). It isn't available on iPad or Android tablets. Benefits of generative AI features The generative AI features in Acrobat and Acrobat Reader significantly improve comprehension, help you get insights, and produce high-quality content quickly. Here are the main benefits.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Feedback",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Before You Begin",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "1. Open a PDF and select AI Assistant in the global bar. To select multiple files, go to",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Get AI-generated answers AI Assistant supports scanned documents. You can scan your paper documents and upload them to Acrobat to get concise summaries and accurate answers to your questions. It also breaks down complex language into key details, making it easy to read and understand contracts directly in Acrobat. AI Assistant The AI Assistant feature provides AI-generated answers to your questions based on the",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "2. Select Get started .",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "3. Select from the sample questions that are displayed based on the content of your PDF",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "4. The answer to your question is displayed. The relevant sources are marked with",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "1. Open a PDF file and select the Generative summary   icon in the navigation panel.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Accessing chat history in Acrobat",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Get AI-generated overviews and summaries",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "2. If prompted, select Get started .",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "3. An overview of the document is generated with section headings and summaries.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Overview of the document",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Streaming summaries for long PDFs",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "1. In Acrobat Home, select Add meeting transcripts under Third-party apps .",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "2. Under the Microsoft Teams icon, select Sign in to Teams and enter your login",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "2. Under the Zoom app icon, select Learn more .",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "3. Follow the on-screen instructions to sign in to your Zoom web portal and download",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Access Zoom meeting transcripts in Acrobat",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Acrobat",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Prerequisites",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Manually open meeting transcripts in Acrobat",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Use generative AI features in Acrobat Reader",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "1. To report accurate or inaccurate responses, select the like , or dislike option",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "2. To provide detailed feedback, select Tell us more .",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "3. Choose from the options, or provide details in the text box. Then select Submit .",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Like or dislike the response",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "1. For the provided response, select Report .",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Report inappropriate content",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "2. Choose from the options, or provide details in the text box. Then select Submit",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "1. Close any open files. Then, navigate to Preferences > Generative AI .",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "2. To turn off the generative AI features, deselect Enable generative AI features in",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Rate your experience with the generative AI features",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Turn off generative AI features in Acrobat or Acrobat Reader",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "desktop",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "1. Choose your profile at the upper-right corner, then select Settings .",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "2. Deselect Enable generative AI features in Acrobat , then select Save .",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "3. To turn on the generative AI features again, select Enable generative AI features in",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Turn off generative AI features in Acrobat on the web",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "1. Open the document you want to work on, and then select AI Assistant .",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "2. Select Agree . 3. Enter your question in the message box. Alternatively, use voice commands to ask a question. It improves accessibility and user experience. You can also select from the suggested questions based on the content of your PDF file.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "4. The answer to your question is displayed. The relevant sources are indicated with numbers. Do the following:",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "1. Select the reference numbers given alongside the generated answers.",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "2. Long press anywhere inside the panel to get options to provide feedback.",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Provide feedback for generated answers",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "1. Select the profile icon on your device.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "2. Select Preferences .",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "3. Select the toggle next to Enable generative AI features in Acrobat .",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Turn off AI Assistant",
+      "page": 31
+    }
+  ]
+}

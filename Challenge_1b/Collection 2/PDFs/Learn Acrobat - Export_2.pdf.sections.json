@@ -1,0 +1,56 @@
+[
+  {
+    "level": "H1",
+    "text": "1. Using the Select tool , do one of the following:",
+    "page": 0,
+    "section_text": "Copy images \nUse the Select tool to copy and paste individual images from a PDF to the clipboard, another \napplication, or a file. \nOpen the Preferences dialog box if you cannot select an image because of overlapping text. \nSelect Acrobat in the upper-left (macOS) or Menu in the upper-left (Windows), then \nselect Preferences. Under Categories, Select General. Then select the Make Select tool select \nimages before text. \n1. Using the Select tool \n, do one of the following: \n• \nTo select the entire image, select the image or drag a rectangle around it. \n• \nTo select a portion of an image, hold the pointer over the image until the cross-\nhair icon \n appears, and then drag a rectangle around the portion. \n  \nNote: To deselect an image and start over, click outside it. \n \n2. Right-click the image and select copy. Once done, you can paste it to a new file or a \nclipboard."
+  },
+  {
+    "level": "H1",
+    "text": "Copy images",
+    "page": 0,
+    "section_text": "Copy images \nUse the Select tool to copy and paste individual images from a PDF to the clipboard, another \napplication, or a file. \nOpen the Preferences dialog box if you cannot select an image because of overlapping text. \nSelect Acrobat in the upper-left (macOS) or Menu in the upper-left (Windows), then \nselect Preferences. Under Categories, Select General. Then select the Make Select tool select \nimages before text. \n1. Using the Select tool \n, do one of the following: \n• \nTo select the entire image, select the image or drag a rectangle around it. \n• \nTo select a portion of an image, hold the pointer over the image until the cross-\nhair icon \n appears, and then drag a rectangle around the portion. \n  \nNote: To deselect an image and start over, click outside it. \n \n2. Right-click the image and select copy. Once done, you can paste it to a new file or a \nclipboard."
+  },
+  {
+    "level": "H1",
+    "text": "1. Select All tools > Use print production > Edit object .",
+    "page": 1,
+    "section_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you want to save the file, name the file, and then \nselect Save."
+  },
+  {
+    "level": "H1",
+    "text": "2. Select the object or objects.",
+    "page": 1,
+    "section_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you want to save the file, name the file, and then \nselect Save."
+  },
+  {
+    "level": "H1",
+    "text": "3. Right-click the selection, and choose Save Selection As .",
+    "page": 1,
+    "section_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you want to save the file, name the file, and then \nselect Save."
+  },
+  {
+    "level": "H1",
+    "text": "4. In the Save As dialog, specify where you want to save the file, name the file, and then",
+    "page": 1,
+    "section_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you want to save the file, name the file, and then \nselect Save."
+  },
+  {
+    "level": "H1",
+    "text": "Export objects to separate PDF",
+    "page": 1,
+    "section_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you want to save the file, name the file, and then \nselect Save."
+  },
+  {
+    "level": "H1",
+    "text": "2. Do one of the following:",
+    "page": 2,
+    "section_text": ""
+  },
+  {
+    "level": "H1",
+    "text": "Take a snapshot of a page",
+    "page": 2,
+    "section_text": ""
+  }
+]
